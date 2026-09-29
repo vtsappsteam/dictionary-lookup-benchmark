@@ -1,0 +1,547 @@
+{
+  "srlex_c": {
+    "HashMap": {
+      "lookup_us_median_of_sessions": 0.0813,
+      "lookup_us_per_session": [
+        0.0851,
+        0.0807,
+        0.0813
+      ],
+      "lookup_us_range_pct": 5.5,
+      "memory_mb": 116.92,
+      "build_s_median_of_sessions": 0.1263
+    },
+    "Sorted Array + Binary Search": {
+      "lookup_us_median_of_sessions": 0.9221,
+      "lookup_us_per_session": [
+        1.0074,
+        0.9007,
+        0.9221
+      ],
+      "lookup_us_range_pct": 11.6,
+      "memory_mb": 35.1,
+      "build_s_median_of_sessions": 0.0375
+    },
+    "Trie": {
+      "lookup_us_median_of_sessions": 0.8903,
+      "lookup_us_per_session": [
+        0.9611,
+        0.8077,
+        0.8903
+      ],
+      "lookup_us_range_pct": 17.2,
+      "memory_mb": 49.32,
+      "build_s_median_of_sessions": 0.0576
+    },
+    "Ternary Search Tree": {
+      "lookup_us_median_of_sessions": 0.2881,
+      "lookup_us_per_session": [
+        0.3038,
+        0.2881,
+        0.2859
+      ],
+      "lookup_us_range_pct": 6.2,
+      "memory_mb": 78.91,
+      "build_s_median_of_sessions": 0.8181
+    },
+    "DAWG": {
+      "lookup_us_median_of_sessions": 0.7984,
+      "lookup_us_per_session": [
+        0.8113,
+        0.7984,
+        0.7685
+      ],
+      "lookup_us_range_pct": 5.4,
+      "memory_mb": 6.12,
+      "build_s_median_of_sessions": 0.1269
+    },
+    "Bloom Filter": {
+      "lookup_us_median_of_sessions": 0.0369,
+      "lookup_us_per_session": [
+        0.0376,
+        0.0369,
+        0.0361
+      ],
+      "lookup_us_range_pct": 3.9,
+      "memory_mb": 2.12,
+      "build_s_median_of_sessions": 0.0351,
+      "fp_count": 20276,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 1.0138
+    },
+    "Cuckoo Filter": {
+      "lookup_us_median_of_sessions": 0.0467,
+      "lookup_us_per_session": [
+        0.0488,
+        0.0467,
+        0.0467
+      ],
+      "lookup_us_range_pct": 4.6,
+      "memory_mb": 2.0,
+      "build_s_median_of_sessions": 0.0687,
+      "fp_count": 55033,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 2.7517
+    },
+    "Cuckoo Filter 16-bit": {
+      "lookup_us_median_of_sessions": 0.0483,
+      "lookup_us_per_session": [
+        0.0491,
+        0.0483,
+        0.0482
+      ],
+      "lookup_us_range_pct": 1.8,
+      "memory_mb": 4.0,
+      "build_s_median_of_sessions": 0.0768,
+      "fp_count": 187,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 0.0094
+    }
+  },
+  "english_c": {
+    "HashMap": {
+      "lookup_us_median_of_sessions": 0.041,
+      "lookup_us_per_session": [
+        0.041,
+        0.0414,
+        0.0403
+      ],
+      "lookup_us_range_pct": 2.6,
+      "memory_mb": 14.38,
+      "build_s_median_of_sessions": 0.0087
+    },
+    "Sorted Array + Binary Search": {
+      "lookup_us_median_of_sessions": 0.2923,
+      "lookup_us_per_session": [
+        0.3176,
+        0.2912,
+        0.2923
+      ],
+      "lookup_us_range_pct": 9.0,
+      "memory_mb": 4.18,
+      "build_s_median_of_sessions": 0.0053
+    },
+    "Trie": {
+      "lookup_us_median_of_sessions": 0.3441,
+      "lookup_us_per_session": [
+        0.3966,
+        0.3435,
+        0.3441
+      ],
+      "lookup_us_range_pct": 15.4,
+      "memory_mb": 15.13,
+      "build_s_median_of_sessions": 0.0119
+    },
+    "Ternary Search Tree": {
+      "lookup_us_median_of_sessions": 0.1542,
+      "lookup_us_per_session": [
+        0.158,
+        0.1542,
+        0.1431
+      ],
+      "lookup_us_range_pct": 9.7,
+      "memory_mb": 24.2,
+      "build_s_median_of_sessions": 0.0459
+    },
+    "DAWG": {
+      "lookup_us_median_of_sessions": 0.5761,
+      "lookup_us_per_session": [
+        0.5693,
+        0.5761,
+        0.581
+      ],
+      "lookup_us_range_pct": 2.0,
+      "memory_mb": 19.72,
+      "build_s_median_of_sessions": 3.8434
+    },
+    "Bloom Filter": {
+      "lookup_us_median_of_sessions": 0.0278,
+      "lookup_us_per_session": [
+        0.0287,
+        0.0278,
+        0.0274
+      ],
+      "lookup_us_range_pct": 4.7,
+      "memory_mb": 0.27,
+      "build_s_median_of_sessions": 0.005,
+      "fp_count": 20635,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 1.0317
+    },
+    "Cuckoo Filter": {
+      "lookup_us_median_of_sessions": 0.0395,
+      "lookup_us_per_session": [
+        0.0413,
+        0.0395,
+        0.0388
+      ],
+      "lookup_us_range_pct": 6.4,
+      "memory_mb": 0.25,
+      "build_s_median_of_sessions": 0.0087,
+      "fp_count": 56295,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 2.8148
+    },
+    "Cuckoo Filter 16-bit": {
+      "lookup_us_median_of_sessions": 0.0404,
+      "lookup_us_per_session": [
+        0.0404,
+        0.0406,
+        0.0399
+      ],
+      "lookup_us_range_pct": 1.9,
+      "memory_mb": 0.5,
+      "build_s_median_of_sessions": 0.0092,
+      "fp_count": 224,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 0.0112
+    }
+  },
+  "srlex_236k_c": {
+    "HashMap": {
+      "lookup_us_median_of_sessions": 0.0416,
+      "lookup_us_per_session": [
+        0.0431,
+        0.0416,
+        0.039
+      ],
+      "lookup_us_range_pct": 9.7,
+      "memory_mb": 14.65,
+      "build_s_median_of_sessions": 0.009
+    },
+    "Sorted Array + Binary Search": {
+      "lookup_us_median_of_sessions": 0.2963,
+      "lookup_us_per_session": [
+        0.3129,
+        0.2942,
+        0.2963
+      ],
+      "lookup_us_range_pct": 6.3,
+      "memory_mb": 4.45,
+      "build_s_median_of_sessions": 0.0054
+    },
+    "Trie": {
+      "lookup_us_median_of_sessions": 0.3446,
+      "lookup_us_per_session": [
+        0.4844,
+        0.3446,
+        0.3256
+      ],
+      "lookup_us_range_pct": 46.1,
+      "memory_mb": 14.96,
+      "build_s_median_of_sessions": 0.0129
+    },
+    "Ternary Search Tree": {
+      "lookup_us_median_of_sessions": 0.1664,
+      "lookup_us_per_session": [
+        0.1804,
+        0.1664,
+        0.1634
+      ],
+      "lookup_us_range_pct": 10.2,
+      "memory_mb": 23.93,
+      "build_s_median_of_sessions": 0.0499
+    },
+    "DAWG": {
+      "lookup_us_median_of_sessions": 0.5648,
+      "lookup_us_per_session": [
+        0.6155,
+        0.5541,
+        0.5648
+      ],
+      "lookup_us_range_pct": 10.9,
+      "memory_mb": 16.19,
+      "build_s_median_of_sessions": 0.3322
+    },
+    "Bloom Filter": {
+      "lookup_us_median_of_sessions": 0.0296,
+      "lookup_us_per_session": [
+        0.0296,
+        0.0289,
+        0.0297
+      ],
+      "lookup_us_range_pct": 2.7,
+      "memory_mb": 0.27,
+      "build_s_median_of_sessions": 0.0052,
+      "fp_count": 20618,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 1.0309
+    },
+    "Cuckoo Filter": {
+      "lookup_us_median_of_sessions": 0.0423,
+      "lookup_us_per_session": [
+        0.0423,
+        0.0414,
+        0.0426
+      ],
+      "lookup_us_range_pct": 2.8,
+      "memory_mb": 0.25,
+      "build_s_median_of_sessions": 0.0091,
+      "fp_count": 55942,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 2.7971
+    },
+    "Cuckoo Filter 16-bit": {
+      "lookup_us_median_of_sessions": 0.0438,
+      "lookup_us_per_session": [
+        0.0438,
+        0.0419,
+        0.0439
+      ],
+      "lookup_us_range_pct": 4.6,
+      "memory_mb": 0.5,
+      "build_s_median_of_sessions": 0.0096,
+      "fp_count": 224,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 0.0112
+    }
+  },
+  "bloom_at_275": {
+    "HashMap": {
+      "lookup_us_median_of_sessions": 0.0809,
+      "lookup_us_per_session": [
+        0.0809,
+        0.0796,
+        0.0818
+      ],
+      "lookup_us_range_pct": 2.8,
+      "memory_mb": 116.92,
+      "build_s_median_of_sessions": 0.1288
+    },
+    "Sorted Array + Binary Search": {
+      "lookup_us_median_of_sessions": 0.9512,
+      "lookup_us_per_session": [
+        0.9512,
+        0.9334,
+        0.9828
+      ],
+      "lookup_us_range_pct": 5.2,
+      "memory_mb": 35.1,
+      "build_s_median_of_sessions": 0.0383
+    },
+    "Trie": {
+      "lookup_us_median_of_sessions": 0.9165,
+      "lookup_us_per_session": [
+        0.9165,
+        0.8597,
+        0.9527
+      ],
+      "lookup_us_range_pct": 10.1,
+      "memory_mb": 49.32,
+      "build_s_median_of_sessions": 0.0587
+    },
+    "Ternary Search Tree": {
+      "lookup_us_median_of_sessions": 0.2987,
+      "lookup_us_per_session": [
+        0.2961,
+        0.2987,
+        0.2988
+      ],
+      "lookup_us_range_pct": 0.9,
+      "memory_mb": 78.91,
+      "build_s_median_of_sessions": 0.859
+    },
+    "DAWG": {
+      "lookup_us_median_of_sessions": 0.7969,
+      "lookup_us_per_session": [
+        0.7951,
+        0.8024,
+        0.7969
+      ],
+      "lookup_us_range_pct": 0.9,
+      "memory_mb": 6.12,
+      "build_s_median_of_sessions": 0.1261
+    },
+    "Bloom Filter": {
+      "lookup_us_median_of_sessions": 0.0352,
+      "lookup_us_per_session": [
+        0.0362,
+        0.0352,
+        0.0337
+      ],
+      "lookup_us_range_pct": 7.2,
+      "memory_mb": 1.66,
+      "build_s_median_of_sessions": 0.033,
+      "fp_count": 55215,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 2.7607
+    },
+    "Cuckoo Filter": {
+      "lookup_us_median_of_sessions": 0.0476,
+      "lookup_us_per_session": [
+        0.0488,
+        0.0476,
+        0.0472
+      ],
+      "lookup_us_range_pct": 3.4,
+      "memory_mb": 2.0,
+      "build_s_median_of_sessions": 0.0687,
+      "fp_count": 55033,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 2.7517
+    },
+    "Cuckoo Filter 16-bit": {
+      "lookup_us_median_of_sessions": 0.0488,
+      "lookup_us_per_session": [
+        0.05,
+        0.0488,
+        0.0477
+      ],
+      "lookup_us_range_pct": 4.8,
+      "memory_mb": 4.0,
+      "build_s_median_of_sessions": 0.0766,
+      "fp_count": 187,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 0.0094
+    }
+  },
+  "bloom_at_0012": {
+    "HashMap": {
+      "lookup_us_median_of_sessions": 0.0801,
+      "lookup_us_per_session": [
+        0.0829,
+        0.0793,
+        0.0801
+      ],
+      "lookup_us_range_pct": 4.5,
+      "memory_mb": 116.92,
+      "build_s_median_of_sessions": 0.1277
+    },
+    "Sorted Array + Binary Search": {
+      "lookup_us_median_of_sessions": 0.9635,
+      "lookup_us_per_session": [
+        1.0106,
+        0.9635,
+        0.9303
+      ],
+      "lookup_us_range_pct": 8.3,
+      "memory_mb": 35.1,
+      "build_s_median_of_sessions": 0.0379
+    },
+    "Trie": {
+      "lookup_us_median_of_sessions": 0.8982,
+      "lookup_us_per_session": [
+        0.9707,
+        0.8982,
+        0.8952
+      ],
+      "lookup_us_range_pct": 8.4,
+      "memory_mb": 49.32,
+      "build_s_median_of_sessions": 0.0579
+    },
+    "Ternary Search Tree": {
+      "lookup_us_median_of_sessions": 0.2891,
+      "lookup_us_per_session": [
+        0.2996,
+        0.2881,
+        0.2891
+      ],
+      "lookup_us_range_pct": 4.0,
+      "memory_mb": 78.91,
+      "build_s_median_of_sessions": 0.8342
+    },
+    "DAWG": {
+      "lookup_us_median_of_sessions": 0.7742,
+      "lookup_us_per_session": [
+        0.7742,
+        0.7687,
+        0.7928
+      ],
+      "lookup_us_range_pct": 3.1,
+      "memory_mb": 6.12,
+      "build_s_median_of_sessions": 0.125
+    },
+    "Bloom Filter": {
+      "lookup_us_median_of_sessions": 0.0563,
+      "lookup_us_per_session": [
+        0.0563,
+        0.0546,
+        0.0576
+      ],
+      "lookup_us_range_pct": 5.4,
+      "memory_mb": 4.16,
+      "build_s_median_of_sessions": 0.0531,
+      "fp_count": 236,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 0.0118
+    },
+    "Cuckoo Filter": {
+      "lookup_us_median_of_sessions": 0.047,
+      "lookup_us_per_session": [
+        0.047,
+        0.0468,
+        0.0473
+      ],
+      "lookup_us_range_pct": 1.0,
+      "memory_mb": 2.0,
+      "build_s_median_of_sessions": 0.0685,
+      "fp_count": 55033,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 2.7517
+    },
+    "Cuckoo Filter 16-bit": {
+      "lookup_us_median_of_sessions": 0.0476,
+      "lookup_us_per_session": [
+        0.0474,
+        0.0476,
+        0.0482
+      ],
+      "lookup_us_range_pct": 1.8,
+      "memory_mb": 4.0,
+      "build_s_median_of_sessions": 0.0757,
+      "fp_count": 187,
+      "fp_tested": 2000000,
+      "fp_rate_percent": 0.0094
+    }
+  },
+  "scenarios": {
+    "HashMap": {
+      "hit_100": 0.0806,
+      "mix_50_50": 0.0778,
+      "miss_100": 0.0613,
+      "miss_over_hit": 0.761
+    },
+    "Sorted Array + Binary Search": {
+      "hit_100": 0.9852,
+      "mix_50_50": 0.9001,
+      "miss_100": 0.873,
+      "miss_over_hit": 0.886
+    },
+    "Trie": {
+      "hit_100": 0.8892,
+      "mix_50_50": 0.7781,
+      "miss_100": 0.6955,
+      "miss_over_hit": 0.782
+    },
+    "Ternary Search Tree": {
+      "hit_100": 0.2864,
+      "mix_50_50": 0.2487,
+      "miss_100": 0.2191,
+      "miss_over_hit": 0.765
+    },
+    "DAWG": {
+      "hit_100": 0.8043,
+      "mix_50_50": 0.7336,
+      "miss_100": 0.6429,
+      "miss_over_hit": 0.799
+    },
+    "Bloom Filter": {
+      "hit_100": 0.0356,
+      "mix_50_50": 0.0355,
+      "miss_100": 0.0367,
+      "miss_over_hit": 1.031
+    },
+    "Cuckoo Filter": {
+      "hit_100": 0.0474,
+      "mix_50_50": 0.0408,
+      "miss_100": 0.0251,
+      "miss_over_hit": 0.53
+    },
+    "Cuckoo Filter 16-bit": {
+      "hit_100": 0.0479,
+      "mix_50_50": 0.0403,
+      "miss_100": 0.0236,
+      "miss_over_hit": 0.493
+    }
+  }
+}

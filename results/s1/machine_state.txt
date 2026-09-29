@@ -1,0 +1,5 @@
+session=s1
+cpu_idle_percent=78
+load=3.08 2.92 2.64
+power=Now drawing from 'AC Power'
+top= 51.1 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
